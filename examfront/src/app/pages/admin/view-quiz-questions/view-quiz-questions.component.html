@@ -1,0 +1,49 @@
+
+<h2 class="text-blue mt20 text-center">Questions of {{ qTitle }}</h2> 
+<div class="bootstrap-wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="container text-center">
+                <button mat-raised-button class="butt1"
+                [routerLink]="['/admin/add-question/'+qId+'/'+qTitle]">    
+                    Add Question
+                </button>
+            </div>
+            <mat-card *ngFor="let q of questions; let i=index"
+            class="mt20 white">
+                <mat-card-content>
+                    <p>
+                        <b>Q{{i+1}}) </b>
+                        <span class="ml20 f1"
+                        [innerHTML]="q.content">{{q.content}}</span>
+                    </p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><b>1)</b> {{q.option1}}</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><b>2)</b> {{q.option2}}</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><b>3)</b> {{q.option3}}</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><b>4)</b> {{q.option4}}</p>
+                            </div>
+                        </div>
+                        <mat-divider></mat-divider>
+                            <p class="mt10"><b class="text-black">Correct Answer:</b>  {{q.answer}}</p>
+                    </div>
+                </mat-card-content>
+                <mat-card-actions>
+                    <button mat-button class="butt1"
+                    [routerLink]="['/admin/question/',q.quesId]">
+                    Update</button>
+                    <button mat-button class="butt2"
+                    (click)="deleteQuestion(q.quesId)">Delete</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+</div>

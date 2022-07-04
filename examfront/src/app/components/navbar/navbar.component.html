@@ -1,0 +1,38 @@
+<mat-toolbar class="black">
+    <a 
+    routerLink="/"
+    mat-icon-button class="example-icon, text-blue" aria-label="Example icon-button with menu icon">
+     <mat-icon>home</mat-icon>
+   </a>
+
+
+   <span class="text-white" style="font-family: Helvetica;">Test Yo'self</span>
+   <span class="example-spacer"></span>
+   <a 
+   *ngIf="!isLoggedIn"
+   routerLink="/login"
+   mat-icon-button style="font-family: Helvetica;" class="text-blue">
+    Login
+   </a>
+   <a 
+   *ngIf="!isLoggedIn"
+   routerLink="/signup"
+   mat-icon-button style="font-family: Helvetica;" class="text-blue mr20 ml20">
+    Register
+   </a>
+
+   <a 
+   *ngIf="isLoggedIn && user"
+   routerLink="/admin/profile"
+   mat-icon-button style="font-family: Helvetica;" class="text-blue mr20 ml20">
+    {{user['username']}}
+   </a>
+
+   <a 
+   (click)="logout()"
+   *ngIf="isLoggedIn"
+   mat-icon-button style="font-family: Helvetica;" class="text-blue mr20 ml20">
+    Logout
+   </a>
+   
+ </mat-toolbar>

@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+  .black{
+    background-color: #0e0b16;
+    height: 800px;
+}
