@@ -19,6 +19,20 @@
 3) Angular Interceptor used to add a JWT auth token to the HTTP Authorization header.
 ![65_1-min](https://user-images.githubusercontent.com/35832850/178340046-b68131dc-056b-4c60-8743-edaeb0078063.jpg)
 
+### ER Diagram:
+![Screenshot (90)](https://user-images.githubusercontent.com/35832850/178344189-3fbc9a2d-e876-47b9-8ffe-6d002af67c64.png)
+![Screenshot (91)](https://user-images.githubusercontent.com/35832850/178344200-c74c1c72-39d9-4f0d-abe7-d9928953305f.png)
+
+### Functional Requirements:
+1) **Auth**: Login, Register
+2) **DashBoard**: UserDashboard, AdminDashboard
+3) **Category-Exam**: Create 
+4) **Quiz-Exam**: Create, Update, Delete
+5) **Question-Exam**: Create, Update, Delete
+6) **User**: Create
+
+
+
 
 
 
