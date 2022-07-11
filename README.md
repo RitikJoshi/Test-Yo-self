@@ -17,7 +17,7 @@ Project uses MVC Architecture.***
 3) Angular Interceptor used to add a JWT auth token to the HTTP Authorization header.
 ![65_1-min](https://user-images.githubusercontent.com/35832850/178340046-b68131dc-056b-4c60-8743-edaeb0078063.jpg)
 
-###Testing
+### Testing
 Postman
 
 ### ER Diagram:
