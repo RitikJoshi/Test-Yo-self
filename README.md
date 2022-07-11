@@ -8,6 +8,8 @@ Backend- SpringBoot Framework
 1) Used to create Rest Api's which can be accessed through JWT tokens.
 2) Spring Hibernate for Database Connection. Database used: MySQL
 
+<br>
+
 Frontend- Angular
 1) Used to create a single page application.
 2) AuthGuard used to protect the routes from unauthorized access into the admin dashboard, keeping user and admin dashboard separate.
