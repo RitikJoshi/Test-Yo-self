@@ -1,16 +1,16 @@
 # Test-Yo-self
-Full Stack Project - Exam Portal
+## Full Stack Project - Exam Portal
 
 
-Project uses MVC Architecture.
+## Project uses MVC Architecture.
 
-Backend- SpringBoot Framework
+### Backend- SpringBoot Framework
 1) Used to create Rest Api's which can be accessed through JWT tokens.
 2) Spring Hibernate for Database Connection. Database used: MySQL
 
 <br>
 
-Frontend- Angular
+### Frontend- Angular
 1) Used to create a single page application.
 2) AuthGuard used to protect the routes from unauthorized access into the admin dashboard, keeping user and admin dashboard separate.
 ![1_HMYykUuvAMDuy3e2pcwLmA](https://user-images.githubusercontent.com/35832850/178339477-5127345c-1880-4781-9557-4873c179299f.png)
@@ -22,7 +22,7 @@ Frontend- Angular
 
 
 
-Project Screenshots:
+## Project Screenshots:
 ![Screenshot (81)](https://user-images.githubusercontent.com/35832850/178341015-0607b962-b562-486a-bfa3-ea01951ef75c.png)
 ![Screenshot (82)](https://user-images.githubusercontent.com/35832850/178341020-ea7a45e3-1f08-4d7b-9544-e02a0d468b7f.png)
 ![Screenshot (83)](https://user-images.githubusercontent.com/35832850/178341022-ead31b54-4ab3-48c6-9293-7ce05bc9f807.png)
