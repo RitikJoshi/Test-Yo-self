@@ -1,8 +1,6 @@
 # Test-Yo-self
-## Full Stack Project - Exam Portal
-
-
-## Project uses MVC Architecture.
+***Full Stack Project - Exam Portal
+Project uses MVC Architecture.***
 
 ### Backend- SpringBoot Framework
 1) Used to create Rest Api's which can be accessed through JWT tokens.
